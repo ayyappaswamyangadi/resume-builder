@@ -6,11 +6,11 @@
 }
 
 .main-content{
-    display: grid;
-    grid-template-columns: 300px 700px;
-    min-height: 1000px;
-
-
+  min-height: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 300px 700px;
 }
 
 .left-section{
@@ -19,7 +19,6 @@
 }
 
 .right-section{
-    width: 90%;
     grid-column: span 1 / span2;
     background-color: #f7f7f7;
 }
