@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+
+
+}
+
+.left-section{
+    grid-column: span 1;
+    background-color: #37303a;
+}
+
+.right-section{
+    width: 90%;
+    grid-column: span 1 / span2;
+    background-color: #f7f7f7;
+}
